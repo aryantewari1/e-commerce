@@ -23,6 +23,8 @@ export default withMT({
       mont: ["Montserrat", "sans-serif"],
       osans: ["Open Sans", "sans-serif"],
       lato: ["Lato", "sans-serif"],
+      bringdown: ["BRINGDOWN", "sans-serif"],
+      robienz: ["Robienz", "sans-serif"],
       // Add Work Sans to the sans family
     },
   },

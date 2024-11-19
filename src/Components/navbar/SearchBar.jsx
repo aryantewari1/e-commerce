@@ -20,13 +20,13 @@ const SearchBar = () => {
     setFilteredData(data);
   };
   return (
-    <div>
-      <div className="flex justify-center ">
+    <>
+      <div className="flex justify-center">
         <input
           type="text"
-          className="w-80 py-2 pl-3 rounded-lg font-mont text-sm bg-blue-gray-800 text-white"
+          className="w-full py-2 pl-3 rounded-lg font-mont text-sm bg-blue-gray-800 text-white"
           value={inputValue}
-          placeholder="Search for your favorite category"
+          placeholder="Search for categories"
           onChange={(e) => {
             setInputValue(e.target.value);
           }}
@@ -38,7 +38,7 @@ const SearchBar = () => {
             <SearchItemCard data={obj} key={obj?.title} />
           ))}
       </div>
-    </div>
+    </>
   );
 };
 

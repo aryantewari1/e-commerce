@@ -4,7 +4,7 @@ import Footer from "./Components/footer/Footer.jsx";
 
 const App = () => {
   return (
-    <div className="bg-customYellow">
+    <div className="">
       <Header />
       <Outlet />
       <Footer />

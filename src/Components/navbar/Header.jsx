@@ -1,37 +1,34 @@
-import { listType } from "../../constants";
+import { Link } from "react-router-dom";
 import SearchBar from "./SearchBar";
+import img from "../../assets/images/menu.png";
+import { useState } from "react";
 
 const Header = () => {
-  const navList = (
-    <div className="h-full">
-      <ul
-        className="flex justify-between items-center h-full font-mont
-       "
-      >
-        {
-          // eslint-disable-next-line react/jsx-key
-          listType.map((s, i) => (
-            <li key={i} className="p-7">
-              {s}
-            </li>
-          ))
-        }
-      </ul>
-    </div>
-  );
-
+  const [ShowSearch, setShowSearch] = useState(false);
+  const [showHamBurgerMenu, setShowHamBurgerMenu] = useState(false);
   return (
-    <header className="flex justify-between h-14 bg-customBlack shadow-md">
-      <div className="flex-[1] h-full  flex items-center justify-center text-2xl font-bold text-pink-50 font-mont italic tracking-wide ">
-        zen-G
-      </div>
+    <header className="absolute w-full">
+      <div className="flex items-center justify-between">
+        <div className="flex-[2] flex justify-start">
+          <div className="">
+            <img
+              src={img}
+              className="w-6 ml-4"
+              onClick={() => setShowHamBurgerMenu(!showHamBurgerMenu)}
+            />
+          </div>
+        </div>
 
-      <div className="flex-[2] flex justify-center items-center text-md font-semibold text-gray-50 ">
-        {navList}
-      </div>
+        <div className="font-robienz flex-[8] py-1 font-medium text-3xl text-black text-center">
+          zen-G
+        </div>
 
-      <div className="flex-[1] h-full flex items-center justify-center">
-        <SearchBar />
+        <div
+          className="flex-[2]  font-sans font-semibold text-right mr-4"
+          onClick={() => setShowSearch(!ShowSearch)}
+        >
+          Search
+        </div>
       </div>
     </header>
   );
