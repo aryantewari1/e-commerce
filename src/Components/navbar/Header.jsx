@@ -62,7 +62,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="font-robienz font-medium text-3xl text-black text-center absolute left-1/2 transform -translate-x-1/2 ">
+        <div className="font-bflick font-medium text-3xl text-brown-900 text-center absolute left-1/2 transform -translate-x-1/2 ">
           zen-G
         </div>
 

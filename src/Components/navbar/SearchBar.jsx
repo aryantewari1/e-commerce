@@ -24,7 +24,7 @@ const SearchBar = () => {
       <div className="flex justify-center">
         <input
           type="text"
-          className="w-full py-2 pl-3 rounded-lg font-mont text-sm bg-blue-gray-800 text-white"
+          className="w-full py-2 pl-3 rounded-lg font-bflick text-sm bg-blue-gray-800 text-white "
           value={inputValue}
           placeholder="Search for categories"
           onChange={(e) => {
@@ -32,7 +32,7 @@ const SearchBar = () => {
           }}
         />
       </div>
-      <div className="absolute w-full mt-2 rounded-lg tablet:w-[38%]">
+      <div className="absolute w-full mt-2 rounded-lg tablet:w-[38%] z-10">
         {inputValue &&
           filteredData.map((obj) => (
             <SearchItemCard data={obj} key={obj?.title} />

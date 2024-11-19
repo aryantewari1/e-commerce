@@ -25,6 +25,8 @@ export default withMT({
       lato: ["Lato", "sans-serif"],
       bringdown: ["BRINGDOWN", "sans-serif"],
       robienz: ["Robienz", "sans-serif"],
+      mirey: ["Mirey Personal Use"],
+      bflick: ["Bright Flicks"],
       // Add Work Sans to the sans family
     },
   },
