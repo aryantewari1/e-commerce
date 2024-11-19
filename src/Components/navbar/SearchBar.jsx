@@ -32,7 +32,7 @@ const SearchBar = () => {
           }}
         />
       </div>
-      <div className="absolute  w-80 mt-2 rounded-lg">
+      <div className="absolute w-full mt-2 rounded-lg tablet:w-[38%]">
         {inputValue &&
           filteredData.map((obj) => (
             <SearchItemCard data={obj} key={obj?.title} />
