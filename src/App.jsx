@@ -4,11 +4,11 @@ import Footer from "./Components/footer/Footer.jsx";
 
 const App = () => {
   return (
-    <>
+    <div className="bg-customYellow">
       <Header />
       <Outlet />
       <Footer />
-    </>
+    </div>
   );
 };
 

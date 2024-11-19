@@ -4,7 +4,10 @@ import SearchBar from "./SearchBar";
 const Header = () => {
   const navList = (
     <div className="h-full">
-      <ul className="flex justify-between items-center h-full">
+      <ul
+        className="flex justify-between items-center h-full font-mont
+       "
+      >
         {
           // eslint-disable-next-line react/jsx-key
           listType.map((s, i) => (
@@ -18,16 +21,16 @@ const Header = () => {
   );
 
   return (
-    <header className="flex justify-between h-14 bg-red-100">
-      <div className="flex-[1] h-full bg-blue-gray-300 flex items-center justify-center text-2xl font-extrabold">
-        ALLganZa
+    <header className="flex justify-between h-14 bg-customBlack shadow-md">
+      <div className="flex-[1] h-full  flex items-center justify-center text-2xl font-bold text-pink-50 font-mont italic tracking-wide ">
+        zen-G
       </div>
 
-      <div className="flex-[2] flex justify-center items-center text-lg font-semibold">
+      <div className="flex-[2] flex justify-center items-center text-md font-semibold text-gray-50 ">
         {navList}
       </div>
 
-      <div className="flex-[1] h-full flex items-center justify-center bg-black">
+      <div className="flex-[1] h-full flex items-center justify-center">
         <SearchBar />
       </div>
     </header>
