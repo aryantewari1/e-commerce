@@ -8,11 +8,9 @@ import { ThemeProvider } from "@material-tailwind/react";
 import { Provider } from "react-redux";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <ThemeProvider>
-      <Provider store={appStore}>
-        <RouterProvider router={appRouter} />
-      </Provider>
-    </ThemeProvider>
-  </React.StrictMode>
+  <ThemeProvider>
+    <Provider store={appStore}>
+      <RouterProvider router={appRouter} />
+    </Provider>
+  </ThemeProvider>
 );
