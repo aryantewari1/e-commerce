@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <header className="absolute w-full pt-2">
       {showSideBar && (
-        <div className=" bg-[#dbffff] w-[96%] absolute mt-12 ml-4 rounded-full shadow-lg">
+        <div className=" bg-[#dbffff] w-[96%] absolute mt-12 ml-4 rounded-full shadow-lg z-20">
           <ul className="flex font-semibold font-mont">
             <Link to="/home">
               <li className="p-4 pl-2 ml-7 hover:text-green-500">Home</li>
