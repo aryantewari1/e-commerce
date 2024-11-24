@@ -27,6 +27,9 @@ export default withMT({
       robienz: ["Robienz", "sans-serif"],
       mirey: ["Mirey Personal Use"],
       bflick: ["Bright Flicks"],
+      bas: ["Basillion"],
+      oil: ["Oilrig"],
+      megasta: ["Megasta Signateria Serif"],
       // Add Work Sans to the sans family
     },
   },
