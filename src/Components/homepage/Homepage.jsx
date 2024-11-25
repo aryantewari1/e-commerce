@@ -13,10 +13,10 @@ const Homepage = () => {
       <p className="absolute top-16 w-[90%] font-mirey text-2xl left-8 text-brown-900 tabletsm:text-5xl w-[55%] tablet:text-5xl tablet:w-[60%] laptop:text-6xl">
         Become a zen-G with our products
       </p>
-      <p className="hidden  desktop:block absolute top-60 w-[90%] font-megasta text-5xl left-8 text-brown-900 font-medium">
+      <p className="hidden  desktop:block absolute top-60 w-[90%] font-bflick text-4xl left-8 text-brown-900 font-medium">
         What we offer:
       </p>
-      <p className="hidden  desktop:block absolute top-96 w-[90%] font-megasta text-5xl left-8 text-brown-900">
+      <p className="hidden  desktop:block absolute top-96 w-[90%] font-bflick text-4xl left-8 text-brown-900">
         Shop from categories:
       </p>
       <div className="flex flex-col w-full justify-center desktop:items-end mr-10">

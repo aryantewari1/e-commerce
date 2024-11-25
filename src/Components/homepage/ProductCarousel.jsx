@@ -8,8 +8,8 @@ const ProductCarousel = ({ products, index }) => {
           className="w-72 h-80 mt-24 shadow-xl shadow-brown-600 rounded-xl object-cover desktop:w-[500px] desktop:h-[490px]"
         />
       </div>
-      <div className="mt-6 p-2 bg-brown-800 rounded-sm">
-        <p className="font-bas w-96 text-white mb-1 mr-1 text-center">
+      <div className="mt-6 p-2 bg-brown-800 rounded-lg shadow-lg shadow-brown-800 ">
+        <p className="font-bas w-96 text-white mb-1 mr-1 ">
           <span className="line-clamp-1">{products[index]?.title}</span>
         </p>
         <div className=" pr-4 rounded-sm ">

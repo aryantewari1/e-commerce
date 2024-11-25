@@ -16,7 +16,7 @@ const Header = () => {
   const showSideBar = useSelector((store) => store?.sidebar?.showSideBar);
 
   return (
-    <header className="absolute w-full pt-2">
+    <header className="fixed bg-[rgb(210,246,240)] w-full pt-2 pb-1 z-50">
       {showSideBar && (
         <div className=" bg-[#dbffff] w-[96%] absolute mt-12 ml-4 rounded-full shadow-lg z-20">
           <ul className="flex font-semibold font-mont">
