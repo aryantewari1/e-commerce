@@ -2,7 +2,7 @@
 function TestimonialCard({ card }) {
   const { image, desc, name, por } = card;
   return (
-    <div className="flex flex-col w-4/6 items-center justify-center bg-white gap-y-3 rounded-md mb-10">
+    <div className="flex flex-col w-4/6 items-center justify-center bg-white gap-y-3 rounded-md mb-10 hover:shadow-md transition-shadow">
       <div className="pt-4">
         <img src={image} className="w-24 rounded-full" alt="card-image" />
       </div>

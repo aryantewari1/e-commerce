@@ -10,7 +10,7 @@ const Testimonials = () => {
         </p>
       </div>
       <div className="w-full bg-[rgb(210,246,240)]">
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center desktop:flex-row desktop:gap-x-6 m-4">
           {testimonialData.map((c, i) => (
             <TestimonialCard card={c} key={i} />
           ))}
