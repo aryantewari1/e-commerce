@@ -20,3 +20,20 @@ export const categories = [
       "https://thumbs.dreamstime.com/z/set-clothes-women-11539046.jpg?ct=jpeg",
   },
 ];
+export const testimonialData = [
+  {
+    name: "Kamal Nayan Upadhyay",
+    por: "Senior product Designer",
+    desc: "Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+  },
+  {
+    name: "S Mishra",
+    por: "UI developer",
+    desc: "Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+  },
+  {
+    name: "XYZ",
+    por: "CTO",
+    desc: "Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+  },
+];
