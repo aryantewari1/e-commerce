@@ -2,7 +2,7 @@ import TestimonialCard from "./TestimonialCard";
 import { testimonialData } from "../../utils/constants";
 const Testimonials = () => {
   return (
-    <div className="bg-[rgb(210,246,240)] mb">
+    <div className="bg-[rgb(210,246,240)] ">
       <div className="w-full text-center mb-10">
         <p className="text-4xl font-mirey text-brown-800">Testimonials</p>
         <p className="text-2xl font-bflick  text-brown-800">

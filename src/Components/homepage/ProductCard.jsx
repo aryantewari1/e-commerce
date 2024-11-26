@@ -1,11 +1,11 @@
 // eslint-disable-next-line react/prop-types
 const ProductCard = ({ product }) => {
   return (
-    <div className="w-72 flex flex-col rounded-b-lg mb-20 border-[1px]  hover:shadow-2xl transition-shadow">
-      <div className="w-72 h-96">
+    <div className="w-72 flex flex-col rounded-b-lg mb-14 border-[1px]  hover:shadow-2xl transition-shadow">
+      <div className="w-72 h-60">
         <img
           src={product?.image}
-          className="w-72 h-full object-cover rounded-t-lg"
+          className="w-72 h-60 object-cover rounded-t-lg"
         />
       </div>
       <div className="bg-white w-72 flex-grow flex flex-col justify-between">
