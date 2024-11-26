@@ -25,15 +25,19 @@ export const testimonialData = [
     name: "Kamal Nayan Upadhyay",
     por: "Senior product Designer",
     desc: "Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+    image: "https://ecommerce-sk.vercel.app/img/kamal.png",
   },
   {
     name: "S Mishra",
     por: "UI developer",
     desc: "Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+    image: "https://www.devknus.com/img/gawri.png",
   },
   {
     name: "XYZ",
     por: "CTO",
     desc: "Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/devknus-official-database.appspot.com/o/images%2FScreenshot%202023-07-07%20at%202.20.32%20PM-modified.png?alt=media&token=324ddd80-2b40-422c-9f1c-1c1fa34943fa",
   },
 ];
