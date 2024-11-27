@@ -41,3 +41,4 @@ export const testimonialData = [
       "https://firebasestorage.googleapis.com/v0/b/devknus-official-database.appspot.com/o/images%2FScreenshot%202023-07-07%20at%202.20.32%20PM-modified.png?alt=media&token=324ddd80-2b40-422c-9f1c-1c1fa34943fa",
   },
 ];
+export const productAPI = "https://fakestoreapi.com/products/";
