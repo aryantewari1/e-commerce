@@ -4,7 +4,7 @@ const ProductInfo = () => {
   const product = useProductData();
 
   return (
-    <div className="pt-14 min-h-screen ">
+    <div className="pt-14 min-h-screen mb-10">
       <div className="flex flex-col items-center pt-4 desktop:flex-row desktop:justify-center ">
         <div className="flex-[1] ">
           <img

@@ -82,7 +82,9 @@ const Header = () => {
             <img src={user} className="w-6 hidden tabletsm:block" />
           </div>
           <div>
-            <img src={groceryImg} className="w-6" />
+            <Link to={"/cart"}>
+              <img src={groceryImg} className="w-6" />
+            </Link>
           </div>
         </div>
       </div>
