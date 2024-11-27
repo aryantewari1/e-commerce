@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { categories } from "../../utils/constants";
 import useHomePageData from "../utils/hooks/useHomePageData";
 import Categories from "./Categories";
@@ -20,7 +21,9 @@ const Homepage = () => {
         Shop from categories:
       </p>
       <div className="flex flex-col w-full justify-center desktop:items-end mr-10">
-        <ProductCarousel products={products} index={activeIndex} />
+        <Link to={"/product?id=" + products[activeIndex]?.id}>
+          <ProductCarousel products={products} index={activeIndex} />
+        </Link>
       </div>
       <div className="absolute top-[640px] ml-8 flex items-center gap-x-10 desktop:top-[445px] desktop:gap-x-14">
         {categories.map((c, i) => (
