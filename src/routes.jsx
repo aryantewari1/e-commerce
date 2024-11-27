@@ -3,6 +3,7 @@ import App from "./App.jsx";
 
 import ErrorPage from "./Components/ErrorPage.jsx";
 import Body from "./Components/Body.jsx";
+import ProductInfo from "./Components/ProductInfo/ProductInfo.jsx";
 
 const appRouter = createBrowserRouter([
   {
@@ -11,8 +12,12 @@ const appRouter = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "",
+        path: "/",
         element: <Body />,
+      },
+      {
+        path: "/product",
+        element: <ProductInfo />,
       },
     ],
   },

@@ -16,7 +16,7 @@ const Header = () => {
   const showSideBar = useSelector((store) => store?.sidebar?.showSideBar);
 
   return (
-    <header className="fixed bg-[rgb(210,246,240)] w-full pt-2 pb-1 z-50">
+    <header className="fixed bg-[rgb(210,246,240)] w-full pt-2 pb-1 z-50 h-14">
       {showSideBar && (
         <div className=" bg-[#dbffff] w-[96%] absolute mt-12 ml-4 rounded-full shadow-lg z-20">
           <ul className="flex font-semibold font-mont">
@@ -68,7 +68,9 @@ const Header = () => {
 
         <div className="flex justify-end flex-[2] font-sans font-semibold text-right mr-4 tabletsm:flex-[1] justify-between">
           <div className="">
-            <img src={home} className="w-6 hidden tabletsm:block" />
+            <Link to={"/"}>
+              <img src={home} className="w-6 hidden tabletsm:block" />
+            </Link>
           </div>
           <div className="">
             <img src={allproducts} className="w-6 hidden tabletsm:block" />
