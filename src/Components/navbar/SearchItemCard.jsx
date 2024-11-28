@@ -5,7 +5,7 @@ const SearchItemCard = ({ data }) => {
       <div className="pt-2 ml-1">
         <img src={data?.image} className="w-24 h-24 object-cover rounded-md" />
       </div>
-      <div className="flex flex-col w-full justify-center items-center tablet:w-80 i">
+      <div className="flex flex-col w-full justify-center items-center tablet:w-80">
         <div className="font-mont font-bold text-md text-[rgb(210,246,240)]">
           {data?.category.toUpperCase()}
         </div>
